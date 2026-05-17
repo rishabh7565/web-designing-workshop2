@@ -1,0 +1,83 @@
+/* Centering wrapper for the entire webpage */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff; /* Matching white background from pdf */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Outer Border Box matching the document screenshot */
+.card {
+  background-color: #ffffff;
+  padding: 40px;
+  border: 1px solid #000000; /* Distinct dark outline border */
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Bold, black title string */
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #000000;
+  line-height: 1.2;
+}
+
+/* Big display number */
+.counter-value {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 25px 0;
+  color: #000000;
+}
+
+/* Row-alignment for primary action buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+/* Separate row layout container for the reset button */
+.reset-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Custom layout buttons matching the bright blue format */
+.btn {
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Keeps reset button sized evenly underneath */
+.reset-btn {
+  padding: 8px 24px;
+}
