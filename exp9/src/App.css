@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 40px;
+  border: 1px solid #000000;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #767676;
+  box-sizing: border-box;
+}
+
+.btn-register {
+  background-color: #008000; /* Direct match for the dark green button */
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.btn-register:hover {
+  background-color: #006400;
+}
+
+.msg-success {
+  color: #008000;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.student-details {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px dashed #cccccc;
+}
+
+.student-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333333;
+}
+/* Styling for the registered data box */
+.display-data-box {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.display-title {
+  font-size: 15px;
+  margin: 0 0 8px 0;
+  color: #333333;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 4px;
+}
+
+.display-data-box p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #555555;
+}
