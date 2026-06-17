@@ -74,8 +74,8 @@ function App() {
 
         {/* Student details footer */}
         <div className="student-details">
-          <p>Name: <strong>RISHABH PAL</strong></p>
-          <p>Roll No: <strong>2503201000920</strong></p>
+          <p>Name: <strong>RISHABH raghav</strong></p>
+          <p>Roll No: <strong>2503201000922</strong></p>
         </div>
       </div>
     </div>
